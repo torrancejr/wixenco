@@ -1,25 +1,16 @@
-// import * as React from 'react'
-// import * as ReactDOM from 'react-dom'
-// import Hello from './components/Hello';
-//
-// $(function() {
-//     let app = document.getElementById( 'app' );
-//     if (app) {
-//         ReactDOM.render(
-//             <Hello />,
-//             app
-//         );
-//     };
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import Hello from "./Hello";
+import * as ReactDOM from "react-dom";
+
+// document.addEventListener("turbo:load", () => {
+//     const root = createRoot(
+//         document.body.appendChild(document.createElement("div"))
+//     );
+//     root.render(<Hello />);
 // });
 
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Hello";
-
-export default (
-    <Router>
-        <Routes>
-            <Route path="/" element={<Home />} />
-        </Routes>
-    </Router>
-);
+document.addEventListener('DOMContentLoaded', () => {
+    ReactDOM.render(<Hello />, document.getElementById('hello'))
+})
