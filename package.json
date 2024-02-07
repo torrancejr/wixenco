@@ -17,7 +17,7 @@
     "remount": "^1.0.0"
   },
   "scripts": {
-    "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets --loader:.js=jsx"
+    "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets --asset-names=[name]-[hash].digested --loader:.js=jsx --loader:.png=dataurl"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",

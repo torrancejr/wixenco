@@ -9,6 +9,7 @@ import AutoAwesomeRoundedIcon from '@mui/icons-material/AutoAwesomeRounded';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import getLPTheme from '../getLPTheme';
 import CssBaseline from '@mui/material/CssBaseline';
+import Hero from './Hero'
 // const defaultTheme = createTheme({});
 
 // const Hello = () => {
@@ -86,6 +87,7 @@ export default function LandingPage() {
             <CssBaseline />
             <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
             <Box sx={{ bgcolor: 'background.default' }}>
+            <Hero></Hero>
             </Box>
             <ToggleCustomTheme
                 showCustomTheme={showCustomTheme}
