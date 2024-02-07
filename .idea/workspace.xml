@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/components/ToggleColorMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/getLPTheme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/hello/world.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/hello/world.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
