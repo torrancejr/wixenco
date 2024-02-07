@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
-import Hello from "./Hello";
+import ThemeProvider from "./Hello";
 import * as ReactDOM from "react-dom";
 
 // document.addEventListener("turbo:load", () => {
@@ -12,5 +12,5 @@ import * as ReactDOM from "react-dom";
 // });
 
 document.addEventListener('DOMContentLoaded', () => {
-    ReactDOM.render(<Hello />, document.getElementById('hello'))
+    ReactDOM.render(<ThemeProvider/>, document.getElementById('hello'))
 })

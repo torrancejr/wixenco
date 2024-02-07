@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/components/ToggleColorMode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/getLPTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/config/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/hello/world.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/hello/world.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -38,6 +49,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,7 +62,7 @@
       <module name="wixen_co" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -75,7 +87,7 @@
       <module name="wixen_co" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -157,6 +169,11 @@
       <option name="presentableId" value="Default" />
       <updated>1707151168265</updated>
       <workItem from="1707151169519" duration="8565000" />
+      <workItem from="1707256983495" duration="175000" />
+      <workItem from="1707257220828" duration="461000" />
+      <workItem from="1707258554920" duration="4019000" />
+      <workItem from="1707271196060" duration="489000" />
+      <workItem from="1707271848354" duration="2396000" />
     </task>
     <servers />
   </component>
@@ -173,5 +190,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
