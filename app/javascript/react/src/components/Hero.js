@@ -91,7 +91,6 @@ export default function Hero() {
                         .
                     </Typography>
                 </Stack>
-                <img src={Image} />
                 <Box
                     id="image"
                     sx={(theme) => ({
@@ -101,8 +100,8 @@ export default function Hero() {
                         width: '100%',
                         backgroundImage:
                             theme.palette.mode === 'light'
-                                ?  {Image}
-                                :  {Image},
+                                ? `url(${Image})`
+                                : `url(${Image})`,
                         backgroundSize: 'cover',
                         borderRadius: '10px',
                         outline: '1px solid',

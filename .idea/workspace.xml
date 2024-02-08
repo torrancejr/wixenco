@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/wixenhero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/images/wixenlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +165,7 @@
       <workItem from="1707258554920" duration="4019000" />
       <workItem from="1707271196060" duration="489000" />
       <workItem from="1707271848354" duration="2396000" />
-      <workItem from="1707347612351" duration="1968000" />
+      <workItem from="1707347612351" duration="3776000" />
     </task>
     <servers />
   </component>
