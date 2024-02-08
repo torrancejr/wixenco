@@ -8,6 +8,7 @@ import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import Image from '../images/wixenhero.png'
+import DarkImage from '../images/wixenheroblack.png'
 
 export default function Hero() {
     return (
@@ -101,7 +102,7 @@ export default function Hero() {
                         backgroundImage:
                             theme.palette.mode === 'light'
                                 ? `url(${Image})`
-                                : `url(${Image})`,
+                                : `url(${DarkImage})`,
                         backgroundSize: 'cover',
                         borderRadius: '10px',
                         outline: '1px solid',
