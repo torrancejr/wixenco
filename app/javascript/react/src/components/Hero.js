@@ -7,7 +7,7 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Image from '../images/wixenhero.png'
+import Image from '../images/wixenherowhite.png'
 import DarkImage from '../images/wixenheroblack.png'
 
 export default function Hero() {
@@ -33,6 +33,31 @@ export default function Hero() {
                     pb: { xs: 8, sm: 12 },
                 }}
             >
+
+                <Box
+                    id="image"
+                    sx={(theme) => ({
+                        mb: { xs: 5, sm: 10 },
+                        alignSelf: 'center',
+                        height: { xs: 200, sm: 700 },
+                        width: '100%',
+                        backgroundImage:
+                            theme.palette.mode === 'light'
+                                ? `url(${Image})`
+                                : `url(${DarkImage})`,
+                        backgroundSize: 'cover',
+                        borderRadius: '10px',
+                        outline: '1px solid',
+                        outlineColor:
+                            theme.palette.mode === 'light'
+                                ? alpha('#BFCCD9', 0.5)
+                                : alpha('#9CCCFC', 0.1),
+                        boxShadow:
+                            theme.palette.mode === 'light'
+                                ? `0 0 12px 8px ${alpha('#9CCCFC', 0.2)}`
+                                : `0 0 24px 12px ${alpha('#033363', 0.2)}`,
+                    })}
+                />
                 <Stack spacing={2} useFlexGap sx={{ width: { xs: '100%', sm: '70%' } }}>
                     <Typography
                         component="h1"
@@ -44,7 +69,7 @@ export default function Hero() {
                             textAlign: 'center',
                         }}
                     >
-                        Our latest&nbsp;
+                        Get things&nbsp;
                         <Typography
                             component="span"
                             variant="h1"
@@ -53,13 +78,12 @@ export default function Hero() {
                                     theme.palette.mode === 'light' ? 'primary.main' : 'primary.light',
                             }}
                         >
-                            products
+                            done
                         </Typography>
                     </Typography>
                     <Typography variant="body1" textAlign="center" color="text.secondary">
-                        Explore our cutting-edge dashboard, delivering high-quality solutions
-                        tailored to your needs. <br />
-                        Elevate your experience with top-tier features and services.
+                        Creating the unexpected. <br />
+                        Blah Blah Blah Blah Blah Blah Blah Blah.
                     </Typography>
                     <Stack
                         direction={{ xs: 'column', sm: 'row' }}
@@ -92,30 +116,6 @@ export default function Hero() {
                         .
                     </Typography>
                 </Stack>
-                <Box
-                    id="image"
-                    sx={(theme) => ({
-                        mt: { xs: 8, sm: 10 },
-                        alignSelf: 'center',
-                        height: { xs: 200, sm: 700 },
-                        width: '100%',
-                        backgroundImage:
-                            theme.palette.mode === 'light'
-                                ? `url(${Image})`
-                                : `url(${DarkImage})`,
-                        backgroundSize: 'cover',
-                        borderRadius: '10px',
-                        outline: '1px solid',
-                        outlineColor:
-                            theme.palette.mode === 'light'
-                                ? alpha('#BFCCD9', 0.5)
-                                : alpha('#9CCCFC', 0.1),
-                        boxShadow:
-                            theme.palette.mode === 'light'
-                                ? `0 0 12px 8px ${alpha('#9CCCFC', 0.2)}`
-                                : `0 0 24px 12px ${alpha('#033363', 0.2)}`,
-                    })}
-                />
             </Container>
         </Box>
     );

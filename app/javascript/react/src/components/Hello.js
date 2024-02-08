@@ -10,6 +10,8 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import getLPTheme from '../getLPTheme';
 import CssBaseline from '@mui/material/CssBaseline';
 import Hero from './Hero'
+import Testimonials from './Testimonials'
+import Highlight from './Highlight'
 // const defaultTheme = createTheme({});
 
 // const Hello = () => {
@@ -88,6 +90,8 @@ export default function LandingPage() {
             <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
             <Box sx={{ bgcolor: 'background.default' }}>
             <Hero></Hero>
+                <Highlight></Highlight>
+            <Testimonials></Testimonials>
             </Box>
             <ToggleCustomTheme
                 showCustomTheme={showCustomTheme}
