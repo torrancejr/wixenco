@@ -15,39 +15,39 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
     {
         icon: <SettingsSuggestRoundedIcon />,
-        title: 'Adaptable performance',
+        title: 'Websites',
         description:
-            'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+            'Our team can has an eye for design and usability and will build a site for your company or small business.',
+    },
+    {
+        icon: <QueryStatsRoundedIcon />,
+        title: 'SEO',
+        description:
+            'Boost your site\'s visibility on search engines to draw more targeted traffic, using proven SEO techniques that help you rank higher.',
+    },
+    {
+        icon: <ThumbUpAltRoundedIcon />,
+        title: 'Great user experience',
+        description:
+            'Visually appealing and easy-to-use interface for your site.',
+    },
+    {
+        icon: <AutoFixHighRoundedIcon />,
+        title: 'Custom Software',
+        description:
+            'We can build custom software tailored to your needs. Helping start-ups bring their ideas to life.',
+    },
+    {
+        icon: <SupportAgentRoundedIcon />,
+        title: 'Reliable support',
+        description:
+            'Count on our responsive support, offering assistance that goes beyond the purchase.',
     },
     {
         icon: <ConstructionRoundedIcon />,
         title: 'Built to last',
         description:
             'Experience unmatched durability that goes above and beyond with lasting investment.',
-    },
-    {
-        icon: <ThumbUpAltRoundedIcon />,
-        title: 'Great user experience',
-        description:
-            'Integrate our product into your routine with an intuitive and easy-to-use interface.',
-    },
-    {
-        icon: <AutoFixHighRoundedIcon />,
-        title: 'Innovative functionality',
-        description:
-            'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
-    },
-    {
-        icon: <SupportAgentRoundedIcon />,
-        title: 'Reliable support',
-        description:
-            'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
-    },
-    {
-        icon: <QueryStatsRoundedIcon />,
-        title: 'Precision in every detail',
-        description:
-            'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
     },
 ];
 
@@ -78,12 +78,10 @@ export default function Highlights() {
                     }}
                 >
                     <Typography component="h2" variant="h4">
-                        Highlights
+                        Services
                     </Typography>
                     <Typography variant="body1" sx={{ color: 'grey.400' }}>
-                        Explore why our product stands out: adaptability, durability,
-                        user-friendly design, and innovation. Enjoy reliable customer support and
-                        precision in every detail.
+                        Need a digital partner? We’re here to help. West Chester native with a small team that has the experience and keen eye for design to help elevate your business.
                     </Typography>
                 </Box>
                 <Grid container spacing={2.5}>

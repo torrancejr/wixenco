@@ -29,7 +29,7 @@ export default function Hero() {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
-                    pt: { xs: 14, sm: 20 },
+                    pt: { xs: 14, sm: 15 },
                     pb: { xs: 8, sm: 12 },
                 }}
             >
@@ -39,7 +39,7 @@ export default function Hero() {
                     sx={(theme) => ({
                         mb: { xs: 5, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 200, sm: 700 },
+                        height: { xs: 200, sm: 600 },
                         width: '100%',
                         backgroundImage:
                             theme.palette.mode === 'light'
@@ -81,9 +81,9 @@ export default function Hero() {
                             done
                         </Typography>
                     </Typography>
+
                     <Typography variant="body1" textAlign="center" color="text.secondary">
-                        Creating the unexpected. <br />
-                        Blah Blah Blah Blah Blah Blah Blah Blah.
+                        I am a freelance web designer creating digital experiences that captivate and convert your audience.
                     </Typography>
                     <Stack
                         direction={{ xs: 'column', sm: 'row' }}
@@ -105,16 +105,9 @@ export default function Hero() {
                             }}
                         />
                         <Button variant="contained" color="primary">
-                            Start now
+                            Contact Us
                         </Button>
                     </Stack>
-                    <Typography variant="caption" textAlign="center" sx={{ opacity: 0.8 }}>
-                        By clicking &quot;Start now&quot; you agree to our&nbsp;
-                        <Link href="#" color="primary">
-                            Terms & Conditions
-                        </Link>
-                        .
-                    </Typography>
                 </Stack>
             </Container>
         </Box>
