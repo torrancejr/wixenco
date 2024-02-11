@@ -132,7 +132,7 @@ function AppAppBar({ mode, toggleColorMode }) {
                                 href="/material-ui/getting-started/templates/sign-up/"
                                 target="_blank"
                             >
-                                Contact Us
+                                Contact Me
                             </Button>
                         </Box>
                         <Box sx={{ display: { sm: '', md: 'none' } }}>

@@ -101,11 +101,11 @@ export default function LandingPage() {
         <ThemeProvider theme={showCustomTheme ? LPtheme : defaultTheme}>
             <CssBaseline />
             <AppAppBar mode={mode} toggleColorMode={toggleColorMode} />
-            <Box sx={{ bgcolor: 'background.default', fontFamily: 'LeagueSpartan' }}>
-            <Hero sx={{ fontFamily: 'LeagueSpartan' }}></Hero>
-                <Highlight sx={{ fontFamily: 'LeagueSpartan' }}></Highlight>
-            <Testimonials sx={{ fontFamily: 'LeagueSpartan' }}></Testimonials>
-                <Faq sx={{ fontFamily: 'LeagueSpartan' }}></Faq>
+            <Box sx={{ bgcolor: 'background.default' }}>
+            <Hero></Hero>
+                <Highlight></Highlight>
+            <Testimonials></Testimonials>
+                <Faq></Faq>
             </Box>
             <ToggleCustomTheme
                 showCustomTheme={showCustomTheme}

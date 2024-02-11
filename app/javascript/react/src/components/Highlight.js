@@ -17,7 +17,7 @@ const items = [
         icon: <SettingsSuggestRoundedIcon />,
         title: 'Websites',
         description:
-            'Our team can has an eye for design and usability and will build a site for your company or small business.',
+            'I have an eye for design and usability and will build a site for your company or small business.',
     },
     {
         icon: <QueryStatsRoundedIcon />,
@@ -35,13 +35,13 @@ const items = [
         icon: <AutoFixHighRoundedIcon />,
         title: 'Custom Software',
         description:
-            'We can build custom software tailored to your needs. Helping start-ups bring their ideas to life.',
+            'I can build custom software tailored to your needs. Helping start-ups bring their ideas to life.',
     },
     {
         icon: <SupportAgentRoundedIcon />,
         title: 'Reliable support',
         description:
-            'Count on our responsive support, offering assistance that goes beyond the purchase.',
+            'Count on my responsive support, offering assistance that goes beyond the purchase.',
     },
     {
         icon: <ConstructionRoundedIcon />,
@@ -81,7 +81,7 @@ export default function Highlights() {
                         Services
                     </Typography>
                     <Typography variant="body1" sx={{ color: 'grey.400' }}>
-                        Need a digital partner? We’re here to help. West Chester native with a small team that has the experience and keen eye for design to help elevate your business.
+                        Need a digital partner? I'm here to help. A West Chester native that has the experience and keen eye for design to help elevate your business.
                     </Typography>
                 </Box>
                 <Grid container spacing={2.5}>

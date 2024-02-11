@@ -61,8 +61,7 @@ export default function FAQ() {
                             sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                         >
                             You can reach our customer support team by emailing
-                            <Link> support@email.com </Link>
-                            or calling our toll-free number. We&apos;re here to assist you
+                            <Link> ryan@wixenco.com </Link>. We&apos;re here to assist you
                             promptly.
                         </Typography>
                     </AccordionDetails>
@@ -87,8 +86,8 @@ export default function FAQ() {
                             sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                         >
                             Absolutely! We offer a hassle-free return policy. If you&apos;re not
-                            completely satisfied, you can return the product within [number of
-                            days] days for a full refund or exchange.
+                            completely satisfied, you can return the product within 7 days for a full refund or exchange.
+                            This pertains to custom software.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -102,7 +101,7 @@ export default function FAQ() {
                         id="panel3d-header"
                     >
                         <Typography component="h3" variant="subtitle2">
-                            What makes your product stand out from others in the market?
+                            What makes me stand out from others in the market?
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
@@ -111,9 +110,9 @@ export default function FAQ() {
                             gutterBottom
                             sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                         >
-                            Our product distinguishes itself through its adaptability, durability,
-                            and innovative features. We prioritize user satisfaction and
-                            continually strive to exceed expectations in every aspect.
+                            I prioritize user satisfaction and
+                            continually strive to exceed expectations in every aspect. Please contact
+                            me for a proposal or meeting.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
@@ -127,7 +126,7 @@ export default function FAQ() {
                         id="panel4d-header"
                     >
                         <Typography component="h3" variant="subtitle2">
-                            Is there a warranty on the product, and what does it cover?
+                            Is there support for your site, and what does it cover?
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
@@ -136,9 +135,7 @@ export default function FAQ() {
                             gutterBottom
                             sx={{ maxWidth: { sm: '100%', md: '70%' } }}
                         >
-                            Yes, our product comes with a [length of warranty] warranty. It covers
-                            defects in materials and workmanship. If you encounter any issues
-                            covered by the warranty, please contact our customer support for
+                            Yes, my services include full time support. If you encounter any issues, please contact me for
                             assistance.
                         </Typography>
                     </AccordionDetails>

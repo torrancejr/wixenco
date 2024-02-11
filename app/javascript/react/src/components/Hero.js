@@ -105,7 +105,7 @@ export default function Hero() {
                             }}
                         />
                         <Button variant="contained" color="primary">
-                            Contact Us
+                            Contact Me
                         </Button>
                     </Stack>
                 </Stack>
