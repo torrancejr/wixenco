@@ -1,5 +1,6 @@
 import { alpha } from '@mui/material/styles';
 import { red } from '@mui/material/colors';
+import LeagueSpartanWoff2 from './fonts/LeagueSpartan-Regular.woff2';
 
 export const brand = {
     50: '#F0F7FF',
@@ -130,7 +131,21 @@ const getDesignTokens = (mode) => ({
         },
     },
     typography: {
-        fontFamily: ['"Inter", "sans-serif"'].join(','),
+        fontFamily: ['LeagueSpartan'],
+        components: {
+            MuiCssBaseline: {
+                styleOverrides:  `
+        @font-face {
+          font-family: 'LeagueSpartan';
+          font-style: normal;
+          font-display: swap;
+          font-weight: 400;
+          src: local('LeagueSpartan'), local('LeagueSpartan-Regular'), url(${LeagueSpartanWoff2}) format('woff2');
+          unicodeRange: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF;
+        }
+      `,
+            },
+        },
         h1: {
             fontSize: 60,
             fontWeight: 600,
@@ -183,6 +198,18 @@ export default function getLPTheme(mode) {
     return {
         ...getDesignTokens(mode),
         components: {
+            MuiCssBaseline: {
+                styleOverrides: `
+        @font-face {
+          font-family: 'LeagueSpartan';
+          font-style: normal;
+          font-display: swap;
+          font-weight: 400;
+          src: local('LeagueSpartan'), local('LeagueSpartan-Regular'), url(${LeagueSpartanWoff2}) format('woff2');
+          unicodeRange: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF;
+        }
+      `,
+            },
             MuiAccordion: {
                 defaultProps: {
                     elevation: 0,
@@ -191,6 +218,7 @@ export default function getLPTheme(mode) {
                 styleOverrides: {
                     root: ({ theme }) => ({
                         padding: 8,
+                        fontFamily: 'LeagueSpartan',
                         overflow: 'clip',
                         backgroundColor: '#fff',
                         border: '1px solid',
