@@ -39,7 +39,7 @@ export default function Hero() {
                     sx={(theme) => ({
                         mb: { xs: 5, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 200, sm: 600 },
+                        height: { xs: 210, sm: 600 },
                         width: '100%',
                         backgroundImage:
                             theme.palette.mode === 'light'
