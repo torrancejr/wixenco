@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy/staging.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +187,7 @@
       <workItem from="1707886857334" duration="1374000" />
       <workItem from="1707941725566" duration="2483000" />
       <workItem from="1707947553694" duration="774000" />
-      <workItem from="1707948755001" duration="62000" />
+      <workItem from="1707948755001" duration="1664000" />
     </task>
     <servers />
   </component>
