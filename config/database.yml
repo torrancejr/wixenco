@@ -51,5 +51,5 @@ test:
 production:
   <<: *default
   database: wixen_co_production
-  username: wixen_co
+  username: root
   password: <%= ENV["WIXEN_CO_DATABASE_PASSWORD"] %>
