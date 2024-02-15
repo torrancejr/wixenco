@@ -58,6 +58,7 @@ function ToggleCustomTheme({ showCustomTheme, toggleCustomTheme }) {
                 bottom: 24,
                 fontFamily: 'LeagueSpartan'
             }}
+            component="h5"
         >
             <ToggleButtonGroup
                 color="primary"

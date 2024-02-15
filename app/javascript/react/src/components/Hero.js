@@ -7,8 +7,10 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import Image from '../images/wixenherowhite.png'
-import DarkImage from '../images/wixenheroblack.png'
+import Image from '../images/wixenherowhite.png';
+import DarkImage from '../images/wixenheroblack.png';
+import MobileImage from '../images/wixencologo_mobile.png';
+import MobileDarkImage from '../images/wixencologoblack_mobile.png'
 
 export default function Hero() {
     return (
@@ -39,12 +41,9 @@ export default function Hero() {
                     sx={(theme) => ({
                         mb: { xs: 5, sm: 10 },
                         alignSelf: 'center',
-                        height: { xs: 210, sm: 600 },
+                        height: { xs: 500, sm: 600 },
                         width: '100%',
-                        backgroundImage:
-                            theme.palette.mode === 'light'
-                                ? `url(${Image})`
-                                : `url(${DarkImage})`,
+                        backgroundImage: { xs: theme.palette.mode === 'light' ? `url(${MobileImage})` : `url(${MobileDarkImage})`, sm: theme.palette.mode === 'light' ? `url(${Image})` : `url(${DarkImage})` },
                         backgroundSize: 'cover',
                         borderRadius: '10px',
                         outline: '1px solid',
@@ -60,8 +59,7 @@ export default function Hero() {
                 />
                 <Stack spacing={2} useFlexGap sx={{ width: { xs: '100%', sm: '70%' } }}>
                     <Typography
-                        component="h1"
-                        variant="h1"
+                        variant="h2"
                         sx={{
                             display: 'flex',
                             flexDirection: { xs: 'column', md: 'row' },
@@ -71,8 +69,7 @@ export default function Hero() {
                     >
                         Get things&nbsp;
                         <Typography
-                            component="span"
-                            variant="h1"
+                            variant="h2"
                             sx={{
                                 color: (theme) =>
                                     theme.palette.mode === 'light' ? 'primary.main' : 'primary.light',
