@@ -13,25 +13,37 @@ import DarkImage from '../images/wixenheroblack.png';
 import MobileImage from '../images/wixencologo_mobile.png';
 import MobileDarkImage from '../images/wixencologoblack_mobile.png'
 import emailjs from '@emailjs/browser';
-import Alert from '@mui/material/Alert';
-import CheckIcon from '@mui/icons-material/Check';
+import Swal from 'sweetalert2'
 
 
 export default function Hero() {
+    const showSwal = () => {
+        Swal.fire("SweetAlert2 is working!");
+    }
     const form = useRef();
     const [loading, setLoading] = useState(false);
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_64k0o38', 'template_rq2w8vl', e.target, 'dqrIodxUYcUOupPSC').then(
             (response) => {
-                <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
-                    Here is a gentle confirmation that your action was successful.
-                </Alert>
+                const Toast = Swal.mixin({
+                    toast: true,
+                    position: "bottom-middle",
+                    showConfirmButton: false,
+                    timer: 3000,
+                    timerProgressBar: true,
+                    didOpen: (toast) => {
+                        toast.onmouseenter = Swal.stopTimer;
+                        toast.onmouseleave = Swal.resumeTimer;
+                    }
+                });
+                Toast.fire({
+                    icon: "success",
+                    title: "Info submitted successfully. Ryan will be in touch soon."
+                });
+                e.target.reset()
             },
             (error) => {
-                setLoading(false);
-                alert("email successfully sent check inbox");
             },
         );
     };
