@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

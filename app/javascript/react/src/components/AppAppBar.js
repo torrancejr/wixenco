@@ -124,16 +124,16 @@ function AppAppBar({ mode, toggleColorMode }) {
                             }}
                         >
                             <ToggleColorMode mode={mode} toggleColorMode={toggleColorMode} />
-                            <Button
-                                color="primary"
-                                variant="contained"
-                                size="small"
-                                component="a"
-                                href="/material-ui/getting-started/templates/sign-up/"
-                                target="_blank"
-                            >
-                                Contact Me
-                            </Button>
+                            {/*<Button*/}
+                            {/*    color="primary"*/}
+                            {/*    variant="contained"*/}
+                            {/*    size="small"*/}
+                            {/*    component="a"*/}
+                            {/*    href="/material-ui/getting-started/templates/sign-up/"*/}
+                            {/*    target="_blank"*/}
+                            {/*>*/}
+                            {/*    Contact Me*/}
+                            {/*</Button>*/}
                         </Box>
                         <Box sx={{ display: { sm: '', md: 'none' } }}>
                             <Button
