@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5329ec14-b5c2-40aa-9733-93f0770a008f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/AppAppBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/react/src/components/ToggleColorMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/react/src/components/ToggleColorMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +190,8 @@
       <workItem from="1707952079757" duration="51000" />
       <workItem from="1707952661329" duration="623000" />
       <workItem from="1708020413634" duration="5404000" />
+      <workItem from="1709256593461" duration="11000" />
+      <workItem from="1710087341703" duration="47000" />
     </task>
     <servers />
   </component>
